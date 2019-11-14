@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass:400,700,900');
+
+*{
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.acordeon{
+  margin-top: 60px;
+  width: 700px;
+}
+
+.acord_part{
+  font-family: 'Overpass', sans-serif;
+}
+
+.acord__dtn{
+  background-color: #4b98ed;
+  border: none;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: white;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  border-bottom: 0.5px solid #3b85d6;
+}
+
+.acord__dtn:hover{
+  background: #3b85d6;
+}
+
+
+.content{
+  text-align: center;
+  font-weight: 500;
+  background-color: #d5e2ef;
+  padding: 10px 0;
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.active{
+  display: block;
+}

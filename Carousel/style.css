@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  position: relative;
+}
+
+.block{
+  width: 400px;
+  overflow: hidden;
+}
+
+.container{
+  width: 9999px;
+  margin-left: -402px;
+}
+
+.container li{
+  display: inline-block;
+  list-style: none;
+}
+
+.arrow{
+  position: absolute;
+  top: 30%;
+  cursor: pointer;
+}
+
+.leftArr{
+  left: 33%;
+}
+
+.rightArr{
+  right: 33%;
+}

@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.block_input{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.search{
+  padding: 3px 15px;
+  width: 60%;
+  line-height: 50px;
+  font-size: 24px;
+  border-radius: 8px;
+  border: 2px solid #725F5A;
+  outline: none;
+}
+
+.block_list{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  color: #725F5A;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  list-style: none;
+  align-items: center;
+}
+
+.hide{
+  display: none;
+}
